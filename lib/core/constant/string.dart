@@ -34,4 +34,8 @@ class AppConstants {
   
   // Signal Radius Display (in meters)
   static const double defaultSignalRadius = 300.0;
+
+  static var defaultCenter;
+
+  static var defaultMapType;
 }

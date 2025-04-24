@@ -41,6 +41,9 @@ dependencies:
   equatable: ^2.0.7
   web_socket_channel: ^3.0.3
   shared_preferences: ^2.5.3
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:
