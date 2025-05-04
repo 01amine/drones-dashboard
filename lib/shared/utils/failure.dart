@@ -10,21 +10,21 @@ abstract class Failure extends Equatable {
 }
 
 class ServerFailure extends Failure {
-  const ServerFailure([String message = 'Server failure occurred']): super(message);
+  const ServerFailure([super.message = 'Server failure occurred']);
 }
 
 class ConnectionFailure extends Failure {
-  const ConnectionFailure([String message = 'Connection failure occurred']): super(message);
+  const ConnectionFailure([super.message = 'Connection failure occurred']);
 }
 
 class CacheFailure extends Failure {
-  const CacheFailure([String message = 'Cache failure occurred']): super(message);
+  const CacheFailure([super.message = 'Cache failure occurred']);
 }
 
 class PredictionFailure extends Failure {
-  const PredictionFailure([String message = 'Failed to generate prediction']): super(message);
+  const PredictionFailure([super.message = 'Failed to generate prediction']);
 }
 
 class ModelNotFoundFailure extends Failure {
-  const ModelNotFoundFailure([String message = 'ML model not found']): super(message);
+  const ModelNotFoundFailure([super.message = 'ML model not found']);
 }
